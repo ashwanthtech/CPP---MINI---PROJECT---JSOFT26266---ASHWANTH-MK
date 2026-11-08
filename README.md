@@ -1,90 +1,118 @@
-# 🎓 Student Marks Analyzer
+🎓 Student Marks Analyzer
 
-## 📌 Project Overview
-Student Marks Analyzer is a beginner-friendly C++ mini project that helps calculate and analyze students' examination marks.
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B" />
+  <img src="https://img.shields.io/badge/Level-Beginner-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Project-Module%201-purple?style=for-the-badge" />
+</p>
+<p align="center">
+  **A simple C++ application to calculate and analyze student marks.**
+</p>
 
-The program takes marks from the user and displays the total, average, highest mark, lowest mark, number of passed students, and number of failed students.
+⸻
 
-## 🚀 Features
-- Enter the number of students.
-- Enter individual student marks.
-- Calculate total marks.
-- Calculate average marks.
-- Find the highest mark.
-- Find the lowest mark.
-- Count passed students (40 or above).
-- Count failed students.
-- Analyze multiple sets of student marks using a repeat option.
+📌 About The Project
 
-## 🛠️ Technologies Used
-- **Programming Language:** C++
-- **Compiler:** GCC (G++)
-- **Editor:** Visual Studio Code
+Student Marks Analyzer is a beginner-friendly C++ mini project developed as part of the Module 1 – Programming Foundation at JAIN University, School of Future, Kochi.
 
-## 📂 Project Structure
-```text
+The application collects student marks and automatically generates a performance report using basic programming concepts.
+
+✨ Features
+
+* 👨‍🎓 Enter the number of students (1–100)
+* 📝 Read and store student marks
+* ➕ Calculate total marks
+* 📊 Calculate average marks
+* 🏆 Find the highest mark
+* 📉 Find the lowest mark
+* ✅ Count passed students
+* ❌ Count failed students
+* 🔄 Repeat the analysis
+
+🛠️ Tech Stack
+
+Technology	Purpose
+C++	Programming language
+VS Code	Code editor
+G++	C++ compiler
+Git & GitHub	Version control
+
+🧠 Concepts Used
+
+This project demonstrates:
+
+* Variables and Data Types
+* Arrays
+* Functions
+* For Loops
+* If-Else Conditions
+* Do-While Loop
+* User Input and Output
+* Return Statements
+
+📂 Project Structure
+
 StudentMarksAnalyzer/
 │
-├── StudentMarkAnalyzer.cpp
-└── README.md
-```
+└── StudentMarksAnalyzer.cpp
 
-## 💻 How to Run the Program
+⚙️ Installation & Execution
 
-**Step 1:** Compile the program.
+1. Clone the repository
 
-```bash
-g++ StudentMarkAnalyzer.cpp -o StudentMarkAnalyzer
-```
+git clone YOUR_REPOSITORY_LINK
 
-**Step 2:** Run the program.
+2. Open the project folder
 
-```bash
-./StudentMarkAnalyzer
-```
+cd StudentMarksAnalyzer
 
-## 📊 Sample Output
+3. Compile the program
 
-```text
-STUDENT MARKS ANALYZER
+g++ StudentMarksAnalyzer.cpp -o StudentMarksAnalyzer
 
+4. Run the program
+
+./StudentMarksAnalyzer
+
+💻 Sample Output
+
+===== STUDENT MARKS ANALYZER =====
 Enter number of students: 3
-
-Enter the mark of student 1: 85
-Enter the mark of student 2: 90
-Enter the mark of student 3: 75
-
+Enter mark: 80
+Enter mark: 60
+Enter mark: 30
 --- RESULT ---
-Total: 250
-Average: 83.3333
-Highest: 90
-Lowest: 75
-Passed: 3
-Failed: 0
-
+Total: 170
+Average: 56.6667
+Highest: 80
+Lowest: 30
+Passed: 2
+Failed: 1
 Analyze again? (y/n): n
-
 Thank you!
-```
 
-## 📚 Concepts Practiced
-- Functions
-- Arrays
-- Loops
-- Conditional statements
-- User input and output
-- Function calling and return values
-- Basic calculations
+📈 Learning Objectives
 
-## 🎯 Project Objective
-The main objective of this project is to understand C++ programming fundamentals through a practical student marks analysis system.
+* Understand how arrays store multiple values.
+* Learn how functions divide a program into smaller tasks.
+* Practice loops and conditional statements.
+* Apply basic programming logic to a practical problem.
 
-## 👨‍💻 Author
-**Ashwanth MK**
+👨‍💻 Developer
 
-JAIN University – Work Integrated BCA
+Ashwanth MK
 
-**Mini Project – Programming Foundation**
+🎓 JAIN University – School of Future, Kochi
 
----
-⭐ Thank you for visiting my project!
+📚 Work Integrated BCA – Full Stack AI Development
+
+🚀 Module 1 – Programming Foundation
+
+⸻
+
+<p align="center">
+  **Thanks for visiting my project!**
+
+⭐ If you find this project useful, consider giving it a star.
+
+</p>
